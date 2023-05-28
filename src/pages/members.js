@@ -13,6 +13,8 @@ import frontendLeader from '@/public/images/members/frontendLeader.jpeg'
 import businessLeader from '@/public/images/members/businessLeader.jpg'
 import backendMember1 from '@/public/images/members/backendMember1.png'
 import aiMember1 from '@/public/images/members/aiMember1.jpg'
+import aiMember2 from '@/public/images/members/aiMember2.jpeg'
+import aiMember3 from '@/public/images/members/aiMember3.jpeg'
 import useWindowDimensions from '@/components/hooks/useWindowDimensions'
 import Loader from '@/components/Loader'
 
@@ -103,6 +105,16 @@ const MEMBERS = [
     position: 'AI Member',
     description: 'Nguyễn Đức Trung is member of the AI Team, he is a Computer Science student at VinUniversity.',
     photo: aiMember1
+  },
+  {
+    position: 'AI Member',
+    description: 'Khoa Dang is member of the AI Team, he is a Computer Science student at VinUniversity.',
+    photo: aiMember2
+  },
+  {
+    position: 'AI Member',
+    description: 'Truong Dang Gia Huy is member of the AI Team, he is a Computer Science student at VinUniversity.',
+    photo: aiMember3
   }
 ]
 
