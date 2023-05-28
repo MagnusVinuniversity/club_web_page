@@ -29,7 +29,6 @@ const CoreMemberRight = ({ position, description, photo }) => {
       </div>
       <div className='flex justify-end w-full'>
         <Image src={photo} alt='Our Team' className='h-40 w-auto rounded-[20%]'
-                priority
                 sizes='(max-width: 768px) 100vw
                         (max-width: 1200px) 50vw,
                         50vw'
@@ -47,7 +46,6 @@ const CoreMemberLeft = ({ position, description, photo, index }) => {
       <div className='col-span-1 lg:hidden'></div>
       <div className={`flex justify-start lg:order-[${index}] lg:col-span-6 lg:justify-center`}>
         <Image src={photo} alt='Our Team' className='h-40 w-auto rounded-[20%] xl:h-35 xl:w-35'
-               priority
                sizes='(max-width: 768px) 100vw
                       (max-width: 1200px) 50vw,
                       50vw'
@@ -103,7 +101,7 @@ const MEMBERS = [
   },
   {
     position: 'AI Member',
-    description: 'Nguyễn Đức Trung member of the AI Team, he is a Computer Science student at VinUniversity.',
+    description: 'Nguyễn Đức Trung is member of the AI Team, he is a Computer Science student at VinUniversity.',
     photo: aiMember1
   }
 ]
@@ -144,8 +142,7 @@ const Members = () => {
                       />
                       :
                       <Image src={professorPhoto} alt='Our Team' className='w-full h-auto rounded-[100%]'
-                           priority
-                           sizes='(max-width: 768px) 100vw
+                             sizes='(max-width: 768px) 100vw
                                     (max-width: 1200px) 50vw,
                                     50vw'
                       />
