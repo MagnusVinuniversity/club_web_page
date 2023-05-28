@@ -140,7 +140,7 @@ const NavBar = () => {
                                 <CustomLinkMobile href="/members" title="Members" toggle={handleClick}/>
                             </nav>
                             <nav className='flex items-center justify-center flex-wrap'>
-                                <motion.a href="https://www.facebook.com"
+                                <motion.a href="https://www.facebook.com/MagnusVinuni"
                                     target={'_blank'}
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
@@ -148,23 +148,7 @@ const NavBar = () => {
                                 >
                                     <FacebookIcon className='w-6 h-6' />
                                 </motion.a>
-                                <motion.a href="https://www.twitter.com"
-                                    target={'_blank'}
-                                    whileHover={{ y: -2 }}
-                                    whileTap={{ scale: 0.9 }}
-                                    className='w-6 mx-3 sm:mx-1'
-                                >
-                                    <TwitterIcon className='w-6 h-6' />
-                                </motion.a>
-                                <motion.a href="https://www.github.com"
-                                    target={'_blank'}
-                                    whileHover={{ y: -2 }}
-                                    whileTap={{ scale: 0.9 }}
-                                    className='w-6 mx-3 sm:mx-1'
-                                >
-                                    <GithubIcon className='w-6 h-6' />
-                                </motion.a>
-                                <motion.a href="https://www.linkedin.com"
+                                <motion.a href="https://www.linkedin.com/company/magnusvinuni/"
                                     target={'_blank'}
                                     whileHover={{ y: -2 }}
                                     whileTap={{ scale: 0.9 }}
