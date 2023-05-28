@@ -15,6 +15,7 @@ import backendMember1 from '@/public/images/members/backendMember1.png'
 import aiMember1 from '@/public/images/members/aiMember1.jpg'
 import aiMember2 from '@/public/images/members/aiMember2.jpeg'
 import aiMember3 from '@/public/images/members/aiMember3.jpeg'
+import aiMember4 from '@/public/images/members/aiMember4.jpeg'
 import useWindowDimensions from '@/components/hooks/useWindowDimensions'
 import Loader from '@/components/Loader'
 
@@ -97,24 +98,29 @@ const MEMBERS = [
     photo: designerLeader
   },
   {
-    position: 'Backend Member',
+    position: 'Backend Team Member',
     description: 'Đỗ Doãn Khắc is member of the Backend Team, he is a Computer Science student at VinUniversity.',
     photo: backendMember1
   },
   {
-    position: 'AI Member',
+    position: 'AI Team Member',
     description: 'Nguyễn Đức Trung is member of the AI Team, he is a Computer Science student at VinUniversity.',
     photo: aiMember1
   },
   {
-    position: 'AI Member',
+    position: 'AI Team Member',
     description: 'Khoa Dang is member of the AI Team, he is a Computer Science student at VinUniversity.',
     photo: aiMember2
   },
   {
-    position: 'AI Member',
+    position: 'AI Team Member',
     description: 'Truong Dang Gia Huy is member of the AI Team, he is a Computer Science student at VinUniversity.',
     photo: aiMember3
+  },
+  {
+    position: 'AI Team Member',
+    description: 'Igor Kolesnikov is member of the AI Team, he is a Computer Science student at VinUniversity.',
+    photo: aiMember4
   }
 ]
 
